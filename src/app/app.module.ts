@@ -4,13 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TourComponent } from './tour/tour.component';
 import { FormsModule } from '@angular/forms';
-import { TourDetailComponent } from './tour-detail/tour-detail.component'
+import { TourDetailComponent } from './tour-detail/tour-detail.component';
+import { MessagesComponent } from './messages/messages.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     TourComponent,
-    TourDetailComponent
+    TourDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
