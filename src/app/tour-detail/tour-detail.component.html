@@ -1,7 +1,6 @@
 <div *ngIf="tour">
 
     <h2>{{tour.name | uppercase}} Details</h2>
-    <div><span>id: </span></div>
     <div>
       <label>Name:
         <input [(ngModel)]="tour.name" placeholder="Tour name"/>
