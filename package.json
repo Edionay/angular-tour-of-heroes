@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~7.2.7",
     "@angular/platform-browser-dynamic": "~7.2.7",
     "@angular/router": "~7.2.7",
+    "@types/materialize-css": "^1.0.6",
     "core-js": "^2.5.4",
     "materialize-css": "^1.0.0-rc.2",
     "rxjs": "~6.4.0",
